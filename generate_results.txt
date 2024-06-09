@@ -1,0 +1,14 @@
+./include/https.h:34:23: Stripping function that’s missing from foreign libs: onion_https_new
+./include/https.h:35:7: Stripping function that’s missing from foreign libs: onion_https_set_certificate
+./include/https.h:38:7: Stripping function with valist: onion_https_set_certificate_argv
+./include/response.h:139:11: Stripping function with valist: onion_response_vprintf
+./include/onion.h:79:7: Stripping function with valist: onion_set_certificate_va
+./include/websocket.h:49:7: Stripping function with valist: onion_websocket_vprintf
+generating 438 global scope members...
+    198 functions
+    17 structs
+    13 enums
+    163 system declarations were ignored.
+    6 declarations were stripped!
+
+OK! generated 'module.jai'
